@@ -1,0 +1,7 @@
+global:
+  spanish: Espanol
+  english: Ingles
+  theme: Plantilla
+pages:
+  home: Inicio
+  work: Trabajo
