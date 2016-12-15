@@ -1,7 +1,8 @@
 global:
-  swedish: Svenska
+  spanish: Spanish
   english: English
   theme: Tema
+  you_are: You are on the english version
 pages:
   home: Home
   work: Work

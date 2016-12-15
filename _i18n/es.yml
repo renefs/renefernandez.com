@@ -2,6 +2,7 @@ global:
   spanish: Espanol
   english: Ingles
   theme: Plantilla
+  you_are: Estas en la version en espanol
 pages:
   home: Inicio
   work: Trabajo
