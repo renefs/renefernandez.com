@@ -1,8 +1,34 @@
 global:
-  spanish: Spanish
+  spanish: Espanol
   english: English
   theme: Tema
   you_are: You are on the english version
+  # Name of website
+  title: Rene Fernandez Sanchez
+  # Short description of your site
+  description: A virtual proof that name is awesome!
+  select_language: "Language:"
 pages:
   home: Home
   work: Work
+
+titles:
+  home: Rene Fernandez Sanchez personal website | Home
+  projects: Projects | Rene Fernandez Sanchez personal website
+
+descriptions:
+  home: Rene is a web software Enginner
+  projects: Projects developed by Rene Fernandez Sanchez
+
+headers:
+  home: "Hola!, I'm Rene"
+  projects: "Projects"
+
+subheaders:
+  home: Welcome to my personal website.
+  projects: This is what I do
+
+navbar:
+  aboutme: "About me"
+  projects: "Projects"
+  contactme: "Contact me"

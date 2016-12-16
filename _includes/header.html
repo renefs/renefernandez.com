@@ -8,10 +8,10 @@
 	  {% assign imgnum = forloop.index %}
 	  {% for imginfo in bigimg %}
 	    {% if imginfo[0] %}
-		  data-img-src-{{ imgnum }}="{{ imginfo[0] | prepend: site.baseurl | replace: '//', '/' }}"
+		  data-img-src-{{ imgnum }}="{{ imginfo[0] | prepend: site.baseurl_root | replace: '//', '/' }}"
 		  data-img-desc-{{ imgnum }}="{{ imginfo[1] }}"
 		{% else %}
-		  data-img-src-{{ imgnum }}="{{ imginfo | prepend: site.baseurl | replace: '//', '/' }}"
+		  data-img-src-{{ imgnum }}="{{ imginfo | prepend: site.baseurl_root | replace: '//', '/' }}"
 		{% endif %}
 	  {% endfor %}
     {% endfor %}
@@ -25,16 +25,16 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="{{ include.type }}-heading">
-          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
-		  {% if page.subtitle %}
+          <h1>{% if page.header %}{% t page.header %}{% else %}<br/>{% endif %}</h1>
+		  {% if page.subheader %}
 		    {% if include.type == "page" %}
             <hr class="small">
-            <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
+            <span class="{{ include.type }}-subheading">{% t page.subheader %}</span>
 			{% else %}
-			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+			<h2 class="{{ include.type }}-subheading">{% t page.subheader %}</h2>
 			{% endif %}
 		  {% endif %}
-		  
+
 		  {% if include.type == "post" %}
 		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
 		  {% endif %}
@@ -50,16 +50,16 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="{{ include.type }}-heading">
-          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
-		  {% if page.subtitle %}
+          <h1>{% if page.header %}{% t page.header %}{% else %}<br/>{% endif %}</h1>
+		  {% if page.subheader %}
 		    {% if include.type == "page" %}
             <hr class="small">
-            <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
+            <span class="{{ include.type }}-subheading">{% t page.subheader %}</span>
 			{% else %}
-			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+			<h2 class="{{ include.type }}-subheading">{% t page.subheader %}</h2>
 			{% endif %}
 		  {% endif %}
-		  
+
 		  {% if include.type == "post" %}
 		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
 		  {% endif %}

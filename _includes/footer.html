@@ -149,7 +149,8 @@
                     Theme by
                     <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
                 </p>
-                <p class="text-muted">
+                <p class="theme-by text-muted">
+                    {% t global.select_language %}
                     {% if site.lang == "es" %} {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
                     <a href="{{ link1 }}">{% t global.english %}</a> {% elsif site.lang == "en" %} {% capture link2 %}{{ site.baseurl_root }}es{{ page.url }}{% endcapture %}
                     <a href="{{ link2 }}">{% t global.spanish %}</a> {% endif %}

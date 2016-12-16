@@ -1,8 +1,26 @@
 global:
   spanish: Espanol
-  english: Ingles
+  english: English
   theme: Plantilla
   you_are: Estas en la version en espanol
+  title: Rene Fernandez Sanchez
+  # Short description of your site
+  description: Bienvenido a mi pagina personal
+  select_language: "Idioma:"
 pages:
   home: Inicio
   work: Trabajo
+
+index:
+  title: Mi pagina personal
+
+titles:
+  home: "Hola!, Soy Rene"
+
+subtitles:
+  home: Bienvenido a mi pagina personal
+
+navbar:
+  aboutme: "Acerca de mi"
+  projects: "Proyectos"
+  contactme: "Contacto"
