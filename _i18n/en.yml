@@ -1,5 +1,5 @@
 global:
-  spanish: Espanol
+  spanish: Español
   english: English
   theme: Tema
   you_are: You are on the english version
@@ -7,21 +7,35 @@ global:
   title: Rene Fernandez Sanchez
   # Short description of your site
   description: A virtual proof that name is awesome!
-  select_language: "Language:"
+  select_language: "Select Language:"
 pages:
   home: Home
   work: Work
 
+index:
+  work_paragraph: 'Currently I am working as Web Engineer at <a href="https://home.cern.ch">CERN</a> (Switzerland).'
+  aboutme_paragraph: 'My name is <span itemprop="name">René Fernández</span> and I am a <span itemprop="jobtitle">Web Engineer</span>. In this site you can find some information about my professional and personal activity.'
+  free_time_paragraph: 'TO DO'
+  projects_paragraph: 'TO DO'
+  more_info_paragraph: 'TO DO'
+  contact:
+      first_paragraph: 'You can <a href="mailto:hola@renefernandez.com?subject=Hello from renefernandez.com">email me</a> or find me <a href="https://twitter.com/the_rocker">on Twitter</a> if you want to get in touch. As I said, I love meeting new people so do not hesitate to send a message!'
+      second_paragraph: 'TO DO'
+      form_paragraph: 'TO DO'
+      email_field: 'Email'
+      name_field: 'Name'
+      message_field: 'Message'
+      submit_button: 'Submit'
 titles:
-  home: Rene Fernandez Sanchez personal website | Home
-  projects: Projects | Rene Fernandez Sanchez personal website
+  home: René Fernández Sánchez personal website | Home
+  projects: Projects | René Fernández Sánchez personal website
 
 descriptions:
-  home: Rene is a web software Enginner
+  home: René is a web software Enginner
   projects: Projects developed by Rene Fernandez Sanchez
 
 headers:
-  home: "Hola!, I'm Rene"
+  home: "Hola!, I'm René"
   projects: "Projects"
 
 subheaders:

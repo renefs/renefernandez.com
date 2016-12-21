@@ -1,21 +1,34 @@
 global:
-  spanish: Espanol
+  spanish: Español
   english: English
   theme: Plantilla
-  you_are: Estas en la version en espanol
+  you_are: Estas en la version en español
   title: Rene Fernandez Sanchez
   # Short description of your site
   description: Bienvenido a mi pagina personal
-  select_language: "Idioma:"
+  select_language: "Selecciona Idioma:"
 pages:
   home: Inicio
   work: Trabajo
 
 index:
-  title: Mi pagina personal
-
+  title: 'Mi página personal'
+  work_paragraph: 'Actualmente trbajo como Ingeniero Web en el <a href="https://home.cern" title="European Organization for Nuclear Research">CERN</a> (Suiza).'
+  aboutme_paragraph: 'Me llamo <span itemprop="name">René Fernández</span> y soy <span itemprop="jobtitle">Ingeniero Web</span>. En esta página puedes encontrar información sobre mi actividad profesional y personal.'
+  free_time_paragraph: 'En mi tiempo libre suelo salir a hacer fotos , aunque también me gusta programar , jugar a la consola , escribir en mi blog  y salir a caminar  cuando el tiempo acompaña.'
+  projects_paragraph: 'TO DO'
+  more_info_paragraph: 'TO DO'
+  final_paragraph: 'TO DO'
+contact:
+    first_paragraph: 'TO DO'
+    second_paragraph: 'TO DO'
+    form_paragraph: 'TO DO'
+    email_field: 'Email'
+    name_field: 'Nombre'
+    message_field: 'Mensaje'
+    submit_button: 'Enviar'
 titles:
-  home: "Hola!, Soy Rene"
+  home: "Hola!, Soy René"
 
 subtitles:
   home: Bienvenido a mi pagina personal

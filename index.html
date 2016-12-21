@@ -11,38 +11,37 @@ bigimg:
  - "img/londres.jpg" : "Londres, U.K."
 css: "/css/aboutme.css"
 ---
-<p class="text-center" id="aboutme">Me llamo René Fernández y soy un Ingeniero Web de Asturias. En esta página encontrarás información sobre mi actividad profesional y personal.</p>
 
 <div id="aboutme-section">
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Actualmente estoy trabajando como Ingeniero Web en el CERN (Suiza).
+{% t index.work_paragraph %}
 </p>
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere, est ac aliquam posuere, nulla ex scelerisque lacus, at placerat ipsum est nec neque. Vestibulum felis felis, mollis a venenatis scelerisque, auctor nec quam..
+{% t index.studies_paragraph %}
 </p>
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere, est ac aliquam posuere, nulla ex scelerisque lacus, at placerat ipsum est nec neque. Vestibulum felis felis, mollis a venenatis scelerisque, auctor nec quam.
+{% t index.code_paragraph %}
 </p>
 
 <p class="about-text">
 <span class="fa fa-heart about-icon"></span>
-En mi tiempo libre suelo salir a hacer fotos , aunque también me gusta programar , jugar a la consola , escribir en mi blog  y salir a caminar  cuando el tiempo acompaña.
+{% t index.free_time_paragraph %}
 </p>
 
 <p class="about-text">
 <span class="fa fa-file-text-o about-icon"></span>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere, est ac aliquam posuere, nulla ex scelerisque lacus, at placerat ipsum est nec neque. Vestibulum felis felis, mollis a venenatis scelerisque, auctor nec quam..
+{% t index.projects_paragraph %}
 </p>
 
 <p class="about-text">
 <span class="fa fa-globe about-icon"></span>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere, est ac aliquam posuere, nulla ex scelerisque lacus, at placerat ipsum est nec neque. Vestibulum felis felis, mollis a venenatis scelerisque, auctor nec quam.
+{% t index.more_info_paragraph %}
 </p>
 
 <p>I also have <a href="https://deanat78.wordpress.com/">an old blog</a>, mostly from high school and some old travelling trips, that I'll leave here just because I want to have a reference to it somewhere.</p>
@@ -58,14 +57,14 @@ I will be away until Sept 19 with absolutely no internet (or even cell phone sig
 </div>
 -->
 
-<p>You can <a href="mailto:daattali@gmail.com?subject=Hello from deanattali.com">email me</a> or find me <a href="https://twitter.com/daattali">on Twitter</a> if you want to get in touch. As I said, I love meeting new people so don't hesitate to send a message!</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere, est ac aliquam posuere, nulla ex scelerisque lacus, at placerat ipsum est nec neque. Vestibulum felis felis, mollis a venenatis scelerisque, auctor nec quam.</p>
+<p>{% t index.contact.first_paragraph %}</p>
+<p>{% t index.contact.second_paragraph%}</p>
 
 <form action="https://formspree.io/hola@renefernandez.com" method="POST" class="form" id="contact-form">
-  <p>You can also send me a quick message using the form below:</p>
+  <p>{% t index.contact.form_paragraph%}</p>
   <div class="row">
     <div class="col-xs-6">
-      <input type="email" name="_replyto" class="form-control input-lg" placeholder="Email" title="Email">
+      <input type="email" name="_replyto" class="form-control input-lg" placeholder="{% t index.contact.email_field%}" title="{% t index.contact.email_field%}">
     </div>
     <div class="col-xs-6">
       <input type="text" name="name" class="form-control input-lg" placeholder="Name" title="Name">
