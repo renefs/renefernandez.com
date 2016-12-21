@@ -6,20 +6,41 @@ global:
   # Name of website
   title: Rene Fernandez Sanchez
   # Short description of your site
-  description: A virtual proof that name is awesome!
+  description: Web Software Engineer from Spain, Asturias. Focused on
   select_language: "Select Language:"
 pages:
   home: Home
   work: Work
 
 index:
-  work_paragraph: 'Currently I am working as Web Engineer at <a href="https://home.cern.ch">CERN</a> (Switzerland).'
-  aboutme_paragraph: 'My name is <span itemprop="name">René Fernández</span> and I am a <span itemprop="jobtitle">Web Engineer</span>. In this site you can find some information about my professional and personal activity.'
-  free_time_paragraph: 'TO DO'
-  projects_paragraph: 'TO DO'
+  work_paragraph: 'Currently I am working as <strong>Web Engineer</strong> at
+                  <a href="https://home.cern.ch">CERN</a> (Switzerland).
+                   Previously I worked as a freelance web developer and also
+                    on a startup (<a href="http://adamaweb.com">Adama Web</a>).'
+  aboutme_paragraph: 'My name is <span itemprop="name">René Fernández</span> and
+                      I am a <span itemprop="jobtitle">Web Engineer</span>.
+                      In this site you can find some information about my
+                      professional and personal activity.'
+  studies_paragraph: 'Obtained my <strong>Masters Degree on Web Engineering</strong>
+                      and my <strong>Bachelor in Computer Science</strong> from
+                      the University of Oviedo. My Masters
+                      thesis was "<a href="https://goo.gl/bcvkrw"
+                      title="Codesnug: Code storage social tool">
+                      Codesnug: Code storage social tool</a>",
+                      obtaining the grade of "Excelent".'
+  code_paragraph: 'I enjoy programming and materialize my ideas on fully-working applications and projects.'
+  free_time_paragraph: 'I like to go hiking and to take pictures, weekend travels,
+                        programming, playing video games,
+                        and writing on my blog.'
+  projects_paragraph: 'You can checkout some of my previous projects on the
+                      projects page (Actually only those I am prouder of :))'
   more_info_paragraph: 'TO DO'
   contact:
-      first_paragraph: 'You can <a href="mailto:hola@renefernandez.com?subject=Hello from renefernandez.com">email me</a> or find me <a href="https://twitter.com/the_rocker">on Twitter</a> if you want to get in touch. As I said, I love meeting new people so do not hesitate to send a message!'
+      first_paragraph: 'You can <a href="mailto:hola@renefernandez.com?subject=Hello
+                        from renefernandez.com">email me</a> or find me
+                        <a href="https://twitter.com/the_rocker">on Twitter</a>
+                        if you want to get in touch. As I said, I love meeting
+                        new people so do not hesitate to send a message!'
       second_paragraph: 'TO DO'
       form_paragraph: 'TO DO'
       email_field: 'Email'
