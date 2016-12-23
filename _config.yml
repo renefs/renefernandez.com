@@ -30,7 +30,7 @@ avatar: "/img/avatar-icon.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Rene Fernandez Sanchez
+  name: René Fernández Sánchez
   email: "hola@renefernandez.com"
   facebook: yourname  # eg. daattali
   github: renefs87    # eg. daattali

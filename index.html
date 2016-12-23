@@ -5,9 +5,10 @@ description: descriptions.home
 header: headers.home
 subheader: subheaders.home
 bigimg:
- - "img/luarca.jpg" : "Luarca, Spain"
- - "img/aviles.png" : "Aviles, Spain"
  - "img/somiedo.jpg" : "Somiedo, Spain"
+ - "img/luarca.jpg" : "Luarca, Spain"
+ - "img/ginebra.jpg" : "Ginebra, Switzerland"
+ - "img/aviles.jpg" : "Aviles, Spain"
  - "img/londres.jpg" : "Londres, U.K."
 css: "/css/aboutme.css"
 ---
@@ -44,37 +45,29 @@ css: "/css/aboutme.css"
 {% t index.more_info_paragraph %}
 </p>
 
-<p>I also have <a href="https://deanat78.wordpress.com/">an old blog</a>, mostly from high school and some old travelling trips, that I'll leave here just because I want to have a reference to it somewhere.</p>
-
 </div>
 
 <div id="contactme-section" id="contactme">
 <h1 id="contact">Contact</h1>
 
-<!--
-<div class="alert alert-danger" role="alert">
-I will be away until Sept 19 with absolutely no internet (or even cell phone signal!). I will try to reply to all my messages in the following week.
-</div>
--->
 
 <p>{% t index.contact.first_paragraph %}</p>
-<p>{% t index.contact.second_paragraph%}</p>
 
 <form action="https://formspree.io/hola@renefernandez.com" method="POST" class="form" id="contact-form">
   <p>{% t index.contact.form_paragraph%}</p>
   <div class="row">
     <div class="col-xs-6">
-      <input type="email" name="_replyto" class="form-control input-lg" placeholder="{% t index.contact.email_field%}" title="{% t index.contact.email_field%}">
+      <input type="email" name="_replyto" class="form-control input-lg" placeholder="{% t index.contact.email_field %}" title="{% t index.contact.email_field%}">
     </div>
     <div class="col-xs-6">
-      <input type="text" name="name" class="form-control input-lg" placeholder="Name" title="Name">
+      <input type="text" name="name" class="form-control input-lg" placeholder="{% t index.contact.name_field %}" title="{% t index.contact.name_field %}">
     </div>
   </div>
   <input type="hidden" name="_subject" value="New submission from renefernandez.com">
-  <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
+  <textarea type="text" name="content" class="form-control input-lg" placeholder="{% t index.contact.message_field %}" title="{% t index.contact.message_field %}" required="required" rows="3"></textarea>
   <input type="text" name="_gotcha" style="display:none">
-  <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
-  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+  <input type="hidden" name="_next" value="./?message=Your message was sent successfully, thanks!" />
+  <button type="submit" class="btn btn-lg btn-primary">{% t index.contact.submit_button %}</button>
 </form>
 
 </div>

@@ -3,35 +3,69 @@ global:
   english: English
   theme: Plantilla
   you_are: Estas en la version en español
-  title: Rene Fernandez Sanchez
+  title: René Fernández Sánchez
   # Short description of your site
-  description: Bienvenido a mi pagina personal
-  select_language: "Selecciona Idioma:"
+  description: Bienvenido a mi página personal
+  select_language: "Switch language:"
 pages:
   home: Inicio
   work: Trabajo
 
 index:
   title: 'Mi página personal'
-  work_paragraph: 'Actualmente trbajo como Ingeniero Web en el <a href="https://home.cern" title="European Organization for Nuclear Research">CERN</a> (Suiza).'
-  aboutme_paragraph: 'Me llamo <span itemprop="name">René Fernández</span> y soy <span itemprop="jobtitle">Ingeniero Web</span>. En esta página puedes encontrar información sobre mi actividad profesional y personal.'
-  free_time_paragraph: 'En mi tiempo libre suelo salir a hacer fotos , aunque también me gusta programar , jugar a la consola , escribir en mi blog  y salir a caminar  cuando el tiempo acompaña.'
-  projects_paragraph: 'TO DO'
-  more_info_paragraph: 'TO DO'
-  final_paragraph: 'TO DO'
-contact:
-    first_paragraph: 'TO DO'
-    second_paragraph: 'TO DO'
-    form_paragraph: 'TO DO'
-    email_field: 'Email'
-    name_field: 'Nombre'
-    message_field: 'Mensaje'
-    submit_button: 'Enviar'
+  work_paragraph: 'Actualmente trbajo como <strong><span itemprop="jobtitle">Ingeniero Web</span></strong> en el
+                  <a href="https://home.cern" title="European Organization
+                   for Nuclear Research">CERN</a> (Suiza). Anteriormente he
+                  trabajado como <strong>desarrollador web freelance</strong>,
+                  construyendo proyectos para diversos clientes y también en
+                   una startup <a href="http://adamaweb.com">Adama Web</a>.'
+  studies_paragraph: 'He obtenido mi <strong>Master en Ingeniería Web</strong> y
+                      mi <strong>Ingeniería Técnica Informática</strong> en la
+                      Universidad de Oviedo. Mi Proyecto de Fin de Master fue
+                     "<a href="https://goo.gl/bcvkrw"
+                      title="Codesnug: herramienta social de almacenamiento de
+                      código">Codesnug: herramienta social de almacenamiento de
+                      código</a>", con el que obtuve una Matrícula de Honor.'
+  code_paragraph: 'Me gusta programar y gestionar todo el ciclo de vida de
+                  aplicaciones, materializando mis ideas en aplicaciones
+                  completamente funcionales. <strong>¡Me encanta crear
+                  cosas útiles y molonas!</strong>'
+  free_time_paragraph: 'Me gusta el senderismo, la fotografías, los viajes de
+                        fin de semana, jugar a videojuegos y escribir en mi blog.'
+  projects_paragraph: 'Puedes echar un vista a algunos de mis proyectos
+                      anteriores en la página de proyectosY
+                      (Realmente solo aquellos de los que estoy más orguyoso :))'
+  more_info_paragraph: 'Crecí en Asturias, España. Siempre he sido un <strong>entusiasta
+                        de la tecnología</strong>, así que decidí estudiar informática.
+                        Después de finalizar mis estudios me mudé a Ginebra, Suiza,
+                        para continuar mi carrera profesional en IT.'
+  contact:
+      first_paragraph: 'Si quieres ponerte en contacto conmigo puedes <a href="mailto:hola@renefernandez.com?subject=Hello
+                        from renefernandez.com">enviarme un email</a> o encontrarme
+                        <a href="https://twitter.com/the_rocker">en Twitter</a>.
+                        ¡No dudes en mandarme un mensaje, siempre estoy abierto
+                         a nuevas y emocionantes oportunidades!'
+      form_paragraph: 'También puedes mandarme un mensaje rápido utilizando el
+                      formulario de abajo.'
+      email_field: 'Email'
+      name_field: 'Nombre'
+      message_field: 'Mensaje'
+      submit_button: 'Enviar'
 titles:
-  home: "Hola!, Soy René"
+  home: René Fernández Sánchez página personal | Inicio
+  projects: Proyectos | René Fernández Sánchez página personal
 
-subtitles:
-  home: Bienvenido a mi pagina personal
+descriptions:
+  home: René es un Ingeniero de Software
+  projects: Proyectos realizados por René Fernández Sánchez
+
+headers:
+  home: "Hola!, Soy René"
+  projects: "Proyectos"
+
+subheaders:
+  home: Bienvenido a mi página personal.
+  projects: Esto es lo que hago
 
 navbar:
   aboutme: "Acerca de mi"

@@ -7,7 +7,7 @@ global:
   title: Rene Fernandez Sanchez
   # Short description of your site
   description: Web Software Engineer from Spain, Asturias. Focused on
-  select_language: "Select Language:"
+  select_language: "Cambia el idioma:"
 pages:
   home: Home
   work: Work
@@ -15,7 +15,8 @@ pages:
 index:
   work_paragraph: 'Currently I am working as <strong>Web Engineer</strong> at
                   <a href="https://home.cern.ch">CERN</a> (Switzerland).
-                   Previously I worked as a freelance web developer and also
+                   Previously I worked as a <strong>freelance web developer</strong>, building
+                    amazing projects for several companies and also
                     on a startup (<a href="http://adamaweb.com">Adama Web</a>).'
   aboutme_paragraph: 'My name is <span itemprop="name">René Fernández</span> and
                       I am a <span itemprop="jobtitle">Web Engineer</span>.
@@ -28,21 +29,22 @@ index:
                       title="Codesnug: Code storage social tool">
                       Codesnug: Code storage social tool</a>",
                       obtaining the grade of "Excelent".'
-  code_paragraph: 'I enjoy programming and materialize my ideas on fully-working applications and projects.'
-  free_time_paragraph: 'I like to go hiking and to take pictures, weekend travels,
-                        programming, playing video games,
-                        and writing on my blog.'
+  code_paragraph: 'I enjoy coding and managing the lyfecycle of projects, materializing my ideas on
+                  fully-working applications. <strong>I love to build useful and cool stuff!</strong>'
+  free_time_paragraph: 'I like to go hiking, taking pictures, weekend travels,
+                        playing video games and also writing on my blog.'
   projects_paragraph: 'You can checkout some of my previous projects on the
                       projects page (Actually only those I am prouder of :))'
-  more_info_paragraph: 'TO DO'
+  more_info_paragraph: 'Grew up in Asturias, Spain, I have been always a <strong>technology enthusiastic</strong> so
+                        I decided to study computer science. After finishing my
+                        studies I moved to Geneva, Switzerland, to continue my career
+                        on the IT field.'
   contact:
-      first_paragraph: 'You can <a href="mailto:hola@renefernandez.com?subject=Hello
+      first_paragraph: 'If you want to contact me you can <a href="mailto:hola@renefernandez.com?subject=Hello
                         from renefernandez.com">email me</a> or find me
-                        <a href="https://twitter.com/the_rocker">on Twitter</a>
-                        if you want to get in touch. As I said, I love meeting
-                        new people so do not hesitate to send a message!'
-      second_paragraph: 'TO DO'
-      form_paragraph: 'TO DO'
+                        <a href="https://twitter.com/the_rocker">on Twitter</a>.
+                        Do not hesitate to send a message, I am always open to new and exciting opportunities!'
+      form_paragraph: 'You can also send me a quick message using the form below'
       email_field: 'Email'
       name_field: 'Name'
       message_field: 'Message'
