@@ -13,7 +13,7 @@ pages:
 
 index:
   title: 'Mi página personal'
-  work_paragraph: 'Actualmente trbajo como <strong><span itemprop="jobtitle">Ingeniero Web</span></strong> en el
+  work_paragraph: 'Actualmente trabajo como <strong><span itemprop="jobtitle">Ingeniero Web</span></strong> en el
                   <a href="https://home.cern" title="European Organization
                    for Nuclear Research">CERN</a> (Suiza). Anteriormente he
                   trabajado como <strong>desarrollador web freelance</strong>,
@@ -33,13 +33,14 @@ index:
   free_time_paragraph: 'Me gusta el senderismo, la fotografías, los viajes de
                         fin de semana, jugar a videojuegos y escribir en mi blog.'
   projects_paragraph: 'Puedes echar un vista a algunos de mis proyectos
-                      anteriores en la página de proyectosY
-                      (Realmente solo aquellos de los que estoy más orguyoso :))'
+                      anteriores en la página de proyectos
+                      (Realmente solo aquellos de los que estoy más orgulloso :))'
   more_info_paragraph: 'Crecí en Asturias, España. Siempre he sido un <strong>entusiasta
                         de la tecnología</strong>, así que decidí estudiar informática.
                         Después de finalizar mis estudios me mudé a Ginebra, Suiza,
                         para continuar mi carrera profesional en IT.'
   contact:
+      title: Contacto
       first_paragraph: 'Si quieres ponerte en contacto conmigo puedes <a href="mailto:hola@renefernandez.com?subject=Hello
                         from renefernandez.com">enviarme un email</a> o encontrarme
                         <a href="https://twitter.com/the_rocker">en Twitter</a>.
