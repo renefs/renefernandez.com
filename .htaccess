@@ -1,8 +1,8 @@
 # Block access to hidden files and directories.
 # This includes directories used by version control systems such as Git and SVN.
 
-<IfModule mod_rewrite.c>
-    RewriteCond %{SCRIPT_FILENAME} -d [OR]
-    RewriteCond %{SCRIPT_FILENAME} -f
-    RewriteRule "(^|/)\." - [F]
-<IfModule>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
