@@ -67,7 +67,7 @@ css: "/css/aboutme.css"
   <textarea type="text" name="content" class="form-control input-lg" placeholder="{% t index.contact.message_field %}" title="{% t index.contact.message_field %}" required="required" rows="3"></textarea>
   <input type="text" name="_gotcha" style="display:none">
   <input type="hidden" name="_next" value="./?message=Your message was sent successfully, thanks!" />
-  <button type="submit" class="btn btn-lg btn-primary">{% t index.contact.submit_button %}</button>
+  <button data-sitekey="6LeIoREUAAAAAAyZ4anWBpuomk8sRTb4ybLPxJiT" data-callback='onSubmit' class="btn btn-lg btn-primary g-recaptcha">{% t index.contact.submit_button %}</button>
 </form>
 
 </div>
